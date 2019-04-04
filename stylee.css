@@ -1,0 +1,250 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   background-color: 
+       #e2f27d;
+}
+
+
+header {
+   width: 100%;
+   position: relative;
+}
+
+
+
+
+header h1,#logo{
+   display: inline-block;
+    margin-bottom: 0px;
+}
+
+
+
+header h1
+{
+    padding-left: 10px;
+    color: 72755c;
+    font-family:'Indie Flower', cursive;
+}
+
+header h2 {
+ font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: 72755c;
+}
+
+
+
+nav{
+    font-size: 25px;
+   position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+nav a{
+   padding: 10px;
+   color: black;
+   font-size: 17px;
+   text-decoration: none;
+}
+
+nav a:hover{
+   color: rgb(18, 187, 40);
+    font-size: 30px;
+    
+
+}
+
+
+#banner_image{
+ 
+   height: 200px;
+   width: 100%;
+  
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#banner_description{
+    padding: 5px;
+    position: relative;
+    bottom:20px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+   
+}
+
+#banner_description a{
+    float: right;
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    border-radius:9%
+}
+
+section article h1{
+    font-size: 30px
+}
+
+section article p{
+    font-size: 20px;
+}
+
+
+article{
+   width: 59%;
+}
+
+aside {
+  width: 40%;
+  color: black;
+  background-color: #9aa070;
+  margin-left: 5px;
+    border-radius: 10% 20%;
+
+}
+
+aside h1{
+    font-size: 20px;
+}
+
+.monkey{
+    max-width: 200px;
+    width: 100%;
+    
+}
+
+
+
+
+
+article,aside{
+float: left;
+text-align: justify;
+margin-top: 5px;
+padding: 30px;
+
+}
+
+
+
+footer{
+   width: 100%;
+  float: left;
+    display: block;
+   border: 3px;
+    padding: 10px;
+ 
+}
+
+#friends{
+position: relative;
+    width: 100%;
+}
+
+#friends a  {
+
+display: inline-block;
+color: black;
+margin: 5px;
+padding:5px;
+
+text-decoration: none;
+
+}
+
+#friends h1{
+    text-align: center;
+}
+
+
+
+#tweet,#picture,#friends{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+ }
+
+ #tweet span{
+     font-size: 16px;
+ }
+ 
+#picture img{
+    
+    transition: all  .5s ease-in-out;
+}
+
+
+
+#picture img:hover {
+    border-radius: 20%;
+    transform: scale(1.5);
+    border: 2px solid green;
+
+}
+
+/* the popups click */
+
+
+
+
+
+@media screen and (max-width:600px){
+
+nav{
+
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+
+}
+nav a{
+
+    display: block;
+    width: 100%;
+    
+
+
+ }
+
+ nav a, aside,main-title, article, #tweet,#picture,#friends,ul {
+     display: block;
+     width: 100%;
+     text-align: center;
+ }
+
+
+
+ #main-title h1  {
+     font-size: 16px;
+     text-align: center;
+ }
+
+ 
+ #main-title h2  {
+    font-size: 20px;
+    text-align: center;
+}
+
+ header img{
+     text-align: center;
+     width: 30px;
+ }
+
+
+ #banner_description span,a {
+    font-size: 14px;
+    
+ }
+
+#banner_description{
+    height: auto;
+}
+}
